@@ -14,7 +14,7 @@
 }
 
 .container {
-    width: 920px;
+    width: 1120px;
 }
 
 
@@ -40,6 +40,7 @@
     color: white;
     text-align: center;
     padding: 5px 0;
+
 }
 
 .icon-buttons i {
@@ -59,7 +60,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 30px;
+    left: 250px;
+
 }
 
 .right-image img {
@@ -155,10 +157,172 @@
 
 
 
+/* gallery3 */
+
+
+#gallery3 {
+    position: relative;
+}
+
+
+#gallery3 img {
+    background-image: url(../images/bg3.ac28474effac8a3f8537.png);
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 500px;
+    width: 100%;
+    background-color: #ff6700;
+    position: relative;
+}
+
+
+#gallery3 h3 {
+    border-top: 20px;
+    color: rgb(255 255 255);
+    font-size: 40px;
+    position: absolute;
+    top: 110px;
+    color: white;
+    z-index: 5;
+    left: 520px;
+}
+
+#gallery3 p {
+    text-align: center;
+}
+
+
+.clearance-sale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6700;
+    padding: 20px;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.left-image img,
+.right-image img {
+    
+    height: auto;
+}
+
+.center-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.center-text h1 {
+    font-size: 2.5rem;
+}
+
+.center-text p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.time-box {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+}
+
+.time-box span {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.shop-now {
+    background-color: white;
+    color: #ff6700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+
+/* popular  */
+
+#popular{
+    padding: 100px;
+}
+
+.popular-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.popular-img img{
+    width: 250px;
+    height: 340px;
+    gap: 20px;
+}
+
+.popular-img a{
+   text-decoration: none;
+   color: #333;
+   
+}
 
 
 
-/* ------Footer-----------00- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------Footer----------- */
+
+
 .list-inline {
     margin-left: 60px;
     width: 900px;
@@ -167,11 +331,11 @@
     gap: 50px;
 }
 
-.footer-card{
+.footer-card {
     width: 20px;
     height: 20px;
     display: flex;
-   
+
     justify-content: space-between;
     gap: 5px;
 }
