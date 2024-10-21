@@ -51,10 +51,22 @@
 
 .icon-buttons i {
     color: aliceblue;
-    background-color: #ff6700;
     border-radius: 50%;
     font-size: 20px;
+    
+} 
+
+.bi-cart {
+    background-color: #ff6700;
+    border-radius: 50%;
 }
+  
+
+.bi-heart{
+    background-color: #ff6700;
+}
+
+
 
 .icon-buttons i:hover {
     color: #333;
