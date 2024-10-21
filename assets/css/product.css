@@ -197,5 +197,69 @@
 
 
 
+/* footer */
+
+.footer-card {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    gap: 5px;
+    margin-left: 880px;
+    margin-top: -40px;
+}
+
+
+.list-inline {
+    font-size: 12px;
+    margin-left: 100px;
+
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+}
+
+.list-left ul li a {
+    margin-left: -50px;
+}
+
+.list-left2 ul li a {
+    margin-left: -60px;
+}
+
+.list-left3 h5 {
+    margin-left: -60px;
+}
+
+.list-left3 p {
+    margin-left: -60px;
+}
+
+.mb-3 {
+    margin-left: -60px;
+}
+
+.btn-warning {
+    margin-left: -60px;
+    width: 222px;
+    color: white;
+    background-color: #ff6700;
+}
+
+.list-left3 .form-control{
+    color: white;
+}
+
+
+
+.list-left3 label {
+    margin-left: -60px;
+}
+
+.list-left3 span {
+    color: red;
+}
+
+
 
 
