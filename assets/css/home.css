@@ -35,10 +35,10 @@
 }
 
 
-.navbar-nav{
+.navbar-nav {
     gap: 20px;
     margin-left: -100px;
-    
+
 }
 
 .top-bar {
@@ -94,7 +94,7 @@
     display: block;
 }
 
-#heroDropdown{
+#heroDropdown {
     color: #ff6700;
 }
 
@@ -130,7 +130,7 @@
     line-height: 17px;
 }
 
-.hero-dropdown a{
+.hero-dropdown a {
     display: flex;
     padding: 9px;
     font-size: 15px;
@@ -141,7 +141,7 @@
     height: 380px;
 }
 
-.hero-dropdown-pages a{
+.hero-dropdown-pages a {
     padding: 7px;
 }
 
@@ -451,7 +451,7 @@ span {
     transform-origin: center;
     border: 2px solid rgb(161, 161, 161);
     box-sizing: border-box;
-    
+
 }
 
 
@@ -506,19 +506,65 @@ span {
 }
 
 
+/* footer */
+
+.footer-card {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    gap: 5px;
+    margin-left: 880px;
+    margin-top: -40px;
+}
+
+
+.list-inline {
+    font-size: 12px;
+    margin-left: 100px;
+
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+}
+
+.list-left ul li a {
+    margin-left: -50px;
+}
+
+.list-left2 ul li a {
+    margin-left: -60px;
+}
+
+.list-left3 h5 {
+    margin-left: -60px;
+}
+
+.list-left3 p {
+    margin-left: -60px;
+}
+
+.mb-3 {
+    margin-left: -60px;
+}
+
+.btn-warning {
+    margin-left: -60px;
+    width: 222px;
+    color: white;
+    background-color: #ff6700;
+}
+
+.list-left3 .form-control{
+    color: white;
+}
 
 
 
+.list-left3 label {
+    margin-left: -60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.list-left3 span {
+    color: red;
+}
