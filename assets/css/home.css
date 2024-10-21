@@ -406,6 +406,18 @@ span {
 
 }
 
+.popular-img:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s; 
+} 
+
+.popular-img {
+    overflow: hidden; /* Sekilin çevrə içində qalmasını təmin edir */
+  
+}
+
+
+
 .right {
     display: flex;
     justify-content: space-between;
@@ -449,19 +461,24 @@ span {
     height: auto;
     transition: transform 0.3s ease;
     transform-origin: center;
-    border: 2px solid rgb(161, 161, 161);
+    border: 1px solid rgb(226, 223, 223);
     box-sizing: border-box;
+}
 
+
+.arrival-product-img a{
+    text-decoration: none;
+    color: #333;
 }
 
 
 .arrival-product-img:hover img {
     transform: scale(1.1);
 
-}
+} 
 
 
-.add-to-cart {
+/* .add-to-cart {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -472,7 +489,7 @@ span {
     border: none;
     display: none;
     cursor: pointer;
-}
+} */
 
 .product:hover .add-to-cart {
     display: block;
@@ -568,3 +585,8 @@ span {
 .list-left3 span {
     color: red;
 }
+
+
+
+
+
